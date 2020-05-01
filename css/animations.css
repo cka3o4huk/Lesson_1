@@ -1,0 +1,456 @@
+@keyframes widthanimright {
+	0% {width: 0;}
+	100% {width: 100%;}
+}
+@-webkit-keyframes widthanimright {
+	0% {width: 0;}
+	100% {width: 100%;}
+}
+@-moz-keyframes widthanimright {
+	0% {width: 0;}
+	100% {width: 100%;}
+}
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-moz-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes fadeIn-rightDown {
+	0% {transform: translate(100px,100px);opacity: 0;}
+	100% {transform: translateX(0);opacity: 1;}
+}
+
+@-webkit-keyframes fadeIn-rightDown {
+	0% {-webkit-transform: translate(100px,100px);opacity: 0;}
+	100% {-webkit-transform: translateX(0);opacity: 1;}
+}
+
+@-moz-keyframes fadeIn-rightDown {
+	0% {-moz-transform: translate(100px,100px);opacity: 0;}
+	100% {-moz-transform: translateX(0);opacity: 1;}
+}
+
+@keyframes fadeIn-rightDown {
+	0% {transform: translate(100px,100px);opacity: 0;}
+	100% {transform: translateX(0);opacity: 1;}
+}
+
+@-webkit-keyframes fadeIn-rightUp {
+	0% {-webkit-transform: translate(100px,-100px);opacity: 0;}
+	100% {-webkit-transform: translate(0,0);opacity: 1;}
+}
+@-moz-keyframes fadeIn-rightUp {
+	0% {-moz-transform: translate(100px,-100px);opacity: 0;}
+	100% {-moz-transform: translateX(0);opacity: 1;}
+}
+@keyframes fadeIn-rightUp {
+	0% {transform: translate(100px,-100px);opacity: 0;}
+	100% {transform: translateX(0);opacity: 1;}
+}
+
+@-webkit-keyframes fadeIn-leftUp {
+	0% {-webkit-transform: translate(-100px,-100px);opacity: 0;}
+	100% {-webkit-transform: translateX(0);opacity: 1;}
+}
+@-moz-keyframes fadeIn-leftUp {
+	0% {-moz-transform: translate(-100px,-100px);opacity: 0;}
+	100% {-moz-transform: translateX(0);opacity: 1;}
+}
+@keyframes fadeIn-leftUp {
+	0% {transform: translate(-100px,-100px);opacity: 0;}
+	100% {transform: translateX(0);opacity: 1;}
+}
+
+@-webkit-keyframes fadeIn-leftDown {
+	0% {-webkit-transform: translate(-100px,100px);opacity: 0;}
+	100% {-webkit-transform: translateX(0);opacity: 1;}
+}
+@-moz-keyframes fadeIn-leftDown {
+	0% {-moz-transform: translate(-100px,100px);opacity: 0;}
+	100% {-moz-transform: translateX(0);opacity: 1;}
+}
+@keyframes fadeIn-leftDown {
+	0% {transform: translate(-100px,100px);opacity: 0;}
+	100% {transform: translateX(0);opacity: 1;}
+}
+
+@-moz-keyframes rocketmove {
+	0% {transform: translate(0px,0px);}
+	33% {transform: translate(0px,10px);}
+	66% {transform: translate(0px,-10px);}
+	100% {transform: translate(0px,0px);}
+}
+
+@-webkit-keyframes rocketmove {
+	0% {transform: translate(0px,0px);}
+	33% {transform: translate(0px,10px);}
+	66% {transform: translate(0px,-10px);}
+	100% {transform: translate(0px,0px);}
+}
+
+@keyframes rocketmove {
+	0% {transform: translate(0px,0px);}
+	33% {transform: translate(0px,10px);}
+	66% {transform: translate(0px,-10px);}
+	100% {transform: translate(0px,0px);}
+}
+
+@-moz-keyframes cloudmove {
+	0% {transform: translate(0px,0px);}
+	50% {transform: translate(20px,0px);}
+	100% {transform: translate(0px,0px);}
+}
+
+@-webkit-keyframes cloudmove {
+	0% {transform: translate(0px,0px);}
+	50% {transform: translate(20px,0px);}
+	100% {transform: translate(0px,0px);}
+}
+
+@keyframes cloudmove {
+	0% {transform: translate(0px,0px);}
+	50% {transform: translate(20px,0px);}
+	100% {transform: translate(0px,0px);}
+}
+
+@-moz-keyframes cloudmovesec {
+	0% {transform: translate(0px,0px);}
+	50% {transform: translate(-20px,0px);}
+	100% {transform: translate(0px,0px);}
+}
+
+@-webkit-keyframes cloudmovesec {
+	0% {transform: translate(0px,0px);}
+	50% {transform: translate(-20px,0px);}
+	100% {transform: translate(0px,0px);}
+}
+
+@keyframes cloudmovesec {
+	0% {transform: translate(0px,0px);}
+	50% {transform: translate(-20px,0px);}
+	100% {transform: translate(0px,0px);}
+}
+
+@-moz-keyframes glow {
+	0% {opacity: 0}
+	33% {opacity: 1}
+	100% {opacity: 0}
+}
+
+@-webkit-keyframes glow {
+	0% {opacity: 0}
+	33% {opacity: 1}
+	100% {opacity: 0}
+}
+
+@keyframes glow {
+	0% {opacity: 0}
+	33% {opacity: 1}
+	100% {opacity: 0}
+}
+
+.fadeInLeftDown {
+	-webkit-animation: fadeIn-leftDown 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn-leftDown 0.5s ease-in-out backwards;
+	animation: fadeIn-leftDown 0.5s ease-in-out backwards;
+	-webkit-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+
+.animate.anim-right {
+	-webkit-transition: all 200ms ;
+	-moz-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 500ms ease;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	transition-timing-function: ease;
+
+	-webkit-animation: widthanimright 3s ease backwards;
+	-moz-animation: widthanimright 3s ease backwards;
+	animation: widthanimright 3s ease backwards;
+}
+
+.cloud4 {
+	-webkit-transition: all 200ms ;
+	-moz-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	transition-timing-function: ease;
+
+	-webkit-animation: cloudmovesec 4s ease infinite;
+	-moz-animation: cloudmovesec 4s ease infinite;
+	animation: cloudmovesec 4s ease infinite;
+}
+
+
+.cloud3 {
+	-webkit-transition: all 300ms ;
+	-moz-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	transition-timing-function: ease;
+
+	-webkit-animation: cloudmove 5s ease infinite;
+	-moz-animation: cloudmove 5s ease infinite;
+	animation: cloudmove 5s ease infinite;
+}
+
+
+.cloud2 {
+	-webkit-transition: all 200ms ;
+	-moz-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 500ms ease;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	transition-timing-function: ease;
+
+	-webkit-animation: cloudmovesec 7s ease infinite;
+	-moz-animation: cloudmovesec 7s ease infinite;
+	animation: cloudmovesec 7s ease infinite;
+}
+
+.cloud1 {
+	-webkit-transition: all 200ms ;
+	-moz-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 500ms ease;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	transition-timing-function: ease;
+
+	-webkit-animation: cloudmove 7s ease infinite;
+	-moz-animation: cloudmove 7s ease infinite;
+	animation: cloudmove 7s ease infinite;
+}
+
+.cloud5 {
+	-webkit-transition: all 300ms ;
+	-moz-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	transition-timing-function: ease;
+
+	-webkit-animation: cloudmove 4s ease infinite;
+	-moz-animation: cloudmove 4s ease infinite;
+	animation: cloudmove 4s ease infinite;
+}
+
+.stars {
+	-webkit-transition: all 200ms ;
+	-moz-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 500ms ease;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	transition-timing-function: ease;
+
+	-webkit-animation: glow 3s ease infinite;
+	-moz-animation: glow 3s ease infinite;
+	animation: glow 3s ease infinite;
+}
+
+.mac {
+	-webkit-transition: all 200ms ;
+	-moz-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 500ms ease;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	transition-timing-function: ease;
+
+	-webkit-animation: rocketmove 7s ease infinite;
+	-moz-animation: rocketmove 7s ease infinite;
+	animation: rocketmove 7s ease infinite;
+
+}
+
+.animate .arrow1 {transform: translateX(200px);}
+
+.svgLoaded.animate #up-gears {
+	-webkit-animation: fadeIn-rightUp 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn-rightUp 0.5s ease-in-out backwards;
+	animation: fadeIn-rightUp 0.5s ease-in-out backwards;
+	-webkit-animation-delay: 0.8s;
+	-o-animation-delay: 0.8s;
+	animation-delay: 0.8s;
+}
+
+.svgLoaded.animate #left-gears {
+	-webkit-animation: fadeIn-leftDown 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn-leftDown 0.5s ease-in-out backwards;
+	animation: fadeIn-leftDown 0.5s ease-in-out backwards;
+	-webkit-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+
+
+.svgLoaded.animate #down-gears {
+	-webkit-animation: fadeIn-rightDown 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn-rightDown 0.5s ease-in-out backwards;
+	animation: fadeIn-rightDown 0.5s ease-in-out backwards;
+	-webkit-animation-delay: 0.2s;
+	-o-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+}
+
+.svgLoaded.animate #krug-gears {
+	-webkit-animation: fadeIn 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn 0.5s ease-in-out backwards;
+	animation: fadeIn 0.5s ease-in-out backwards;
+}
+
+.svgLoaded.animate #down-rupor {
+	-webkit-animation: fadeIn-leftDown 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn-leftDown 0.5s ease-in-out backwards;
+	animation: fadeIn-leftDown 0.5s ease-in-out backwards;
+	-webkit-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+.svgLoaded.animate #up-rupor {
+	-webkit-animation: fadeIn-rightUp 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn-rightUp 0.5s ease-in-out backwards;
+	animation: fadeIn-rightUp 0.5s ease-in-out backwards;
+	-webkit-animation-delay: 0.4s;
+	-o-animation-delay: 0.4s;
+	animation-delay: 0.4s;
+}
+
+.svgLoaded.animate #krikup-rupor, .svgLoaded.animate #krikdown-rupor,
+.svgLoaded.animate #krikmiddle-rupor {
+	-webkit-animation: fadeIn 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn 0.5s ease-in-out backwards;
+	animation: fadeIn 0.5s ease-in-out backwards;
+	-webkit-animation-delay: 0.8s;
+	-o-animation-delay: 0.8s;
+	animation-delay: 0.8s;
+}
+
+.svgLoaded.animate #ruchka-rupor {
+	-webkit-animation: fadeIn-rightDown 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn-rightDown 0.5s ease-in-out backwards;
+	animation: fadeIn-rightDown 0.5s ease-in-out backwards;
+	-webkit-animation-delay: 0.3s;
+	-o-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+}
+
+.svgLoaded.animate #middle-rupor {
+	-webkit-animation: fadeIn-leftUp 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn-leftUp 0.5s ease-in-out backwards;
+	animation: fadeIn-leftUp 0.5s ease-in-out backwards;
+	-webkit-animation-delay: 0.1s;
+	-o-animation-delay: 0.1s;
+	animation-delay: 0.1s;
+}
+
+.svgLoaded.animate #niz-port  {
+	-webkit-animation: fadeIn-rightDown 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn-rightDown 0.5s ease-in-out backwards;
+	animation: fadeIn-rightDown 0.5s ease-in-out backwards;
+	-webkit-animation-delay: 0.2s;
+	-o-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+}
+
+.svgLoaded.animate #krug-port {
+	-webkit-animation: fadeIn 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn 0.5s ease-in-out backwards;
+	animation: fadeIn 0.5s ease-in-out backwards;
+}
+
+.svgLoaded.animate #verh-port {
+	-webkit-animation: fadeIn-leftUp 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn-leftUp 0.5s ease-in-out backwards;
+	animation: fadeIn-leftUp 0.5s ease-in-out backwards;
+	-webkit-animation-delay: 0.1s;
+	-o-animation-delay: 0.1s;
+	animation-delay: 0.1s;
+}
+
+.svgLoaded.animate #ruchka-port {
+	-webkit-animation: fadeIn-rightUp 0.5s ease-in-out;
+	-moz-animation: fadeIn-rightUp 0.5s ease-in-out;
+	animation: fadeIn-rightUp 0.5s ease-in-out;
+}
+
+.svgLoaded.animate #krug-korzina {
+	-webkit-animation: fadeIn 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn 0.5s ease-in-out backwards;
+	animation: fadeIn 0.5s ease-in-out backwards;
+}
+
+.svgLoaded.animate #ruchka-korzina {
+	-webkit-animation: fadeIn-leftUp 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn-leftUp 0.5s ease-in-out backwards;
+	animation: fadeIn-leftUp 0.5s ease-in-out backwards;
+}
+
+.svgLoaded.animate #seredina-korzina {
+	-webkit-animation: fadeIn-rightUp 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn-rigthUp 0.5s ease-in-out backwards;
+	animation: fadeIn-rightUp 0.5s ease-in-out backwards;
+	-webkit-animation-delay: 0.2s;
+	-o-animation-delay: 0.2s;
+	animation-delay: 0.2s;
+}
+
+.svgLoaded.animate #niz-korzina {
+	-webkit-animation: fadeIn-leftDown 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn-leftDown 0.5s ease-in-out backwards;
+	animation: fadeIn-leftDown 0.5s ease-in-out backwards;
+	-webkit-animation-delay: 0.3s;
+	-o-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+}
+
+.svgLoaded.animate #rightkoleso-korzina {
+	-webkit-animation: fadeIn-rightDown 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn-rightDown 0.5s ease-in-out backwards;
+	animation: fadeIn-rightDown 0.5s ease-in-out backwards;
+	-webkit-animation-delay: 0.4s;
+	-o-animation-delay: 0.4s;
+	animation-delay: 0.4s;
+}
+
+.svgLoaded.animate #leftkoleso-korzina {
+	-webkit-animation: fadeIn-leftDown 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn-leftDown 0.5s ease-in-out backwards;
+	animation: fadeIn-leftDown 0.5s ease-in-out backwards;
+	-webkit-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+
+.svgLoaded.animate #krug-rupor {
+	-webkit-animation: fadeIn 0.5s ease-in-out backwards;
+	-moz-animation: fadeIn 0.5s ease-in-out backwards;
+	animation: fadeIn 0.5s ease-in-out backwards;
+}
+
+

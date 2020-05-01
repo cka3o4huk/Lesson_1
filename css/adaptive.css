@@ -1,0 +1,348 @@
+.mobileBtnMenu, .mobileClear{
+	display: none;
+}
+.mobileLink {
+    text-align: center;
+	padding-top: 10px;
+}
+.mobileLink a{
+	display: inline-block;
+	
+}
+.soglasie .modal-dialog {
+    width: 100%;
+    max-width: 700px;
+}
+span.linkSoglasie, span.linkSoglasie a {
+    font-size: 11px;
+    display: inline;
+    font-weight: normal;
+}
+
+
+@media (max-width: 769px) {
+
+.mobileClear{
+	display: block;
+	clear: both;
+}
+#icons .mobileClear{
+	margin-bottom: 25px;
+}
+html, body {
+    min-width: initial;
+	min-width: none;
+	min-width: auto;
+	box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    box-sizing: border-box;
+}
+.col-xs-2.topMenuWrap {
+    display: none;
+}
+.phone strong{
+	font-weight: 100;
+}
+.phone {
+    font-size: 20px;
+}
+.wrap-logo {
+    float: none;
+    width: auto;
+}
+.logo {
+    width: 100%;
+    background-size: contain;
+    margin: 25px 0 0 0;
+	float: none;
+}
+header .call {
+    padding-top: 25px;
+    float: none;
+}
+header {
+    position: relative;
+}
+.mobileBtnMenu{
+	display: inline-block;
+	cursor: pointer;
+}
+.mobileBtnMenu:before{
+	content: "Меню сайта";
+	color: #ffffff;
+	font-size: 16px;
+	border-bottom: 1px solid;
+}
+.topMenuWrap {
+    position: absolute;
+    top: 99px;
+    z-index: 100;
+    background: #1f2225;
+    width: auto;
+    float: none;
+    padding: 0;
+    max-width: 320px;
+	width: 100%;
+    box-sizing: border-box;
+}
+.topMenuWrap .contact {
+    padding-top: 0;
+    text-align: left;
+}
+.topMenuWrap .contact .top-menu{
+    padding: 0;
+	margin: 0;
+}
+.topMenuWrap .contact .top-menu li{
+	border-top: 1px solid rgba(255, 255, 255, 0.34);
+}
+.topMenuWrap .contact .top-menu a {
+    display: block;
+    padding: 12px 15px;
+	text-decoration: none;
+}
+#slider .offer {
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #313B45;
+}
+.cloud1, .cloud2, .cloud3, .cloud4, .cloud5{
+	display: none;
+}
+#slider{
+	height: 200px;
+}
+#slider .suboffer {
+    background: none;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 100px;
+}
+#slider .suboffer a{
+	
+}
+#slider .suboffer  > div{
+	display: none;
+}
+#slider .mac{
+	display: none;
+}
+#slider .suboffer a.btn.default {
+    top: 25px!important;
+    left: 50%;
+    margin-left: -152px;
+    right: initial!important;
+}
+#services{
+	overflow: hidden;
+}
+#services .col-xs-1-5 {
+    width: 50%;
+    float: left;
+}
+#services .col-xs-1-5:first-child{
+	width: 100%;
+	float: none;
+}
+.seo_block{
+	display: none;
+}
+#footer  .call {
+    text-align: center;
+	padding-top: 5px;
+	float: none;
+}
+#footer .logo {
+    width: 100%;
+    background-position: center;
+}
+.zagl, .item-serv:hover .zagl {
+    font-size: 14px;
+}
+.item-serv:hover .zagl {
+    -webkit-transform: inherit;
+    -moz-transform: inherit;
+    -o-transform: inherit;
+    -ms-transform: inherit;
+    transform: inherit;
+}
+.tohome{
+	display: none;
+}
+.ih-item.square {
+    margin-bottom: 20px;
+}
+.portf {
+    margin: 0;
+}
+.indent0{
+	padding: 0;
+}
+.bordered {
+    height: auto!important;
+}
+#content .promo-desc p{
+	width: auto!important;
+	text-align: center;
+}
+#content .promo-desc .pull-left{
+	 float: none!important;
+	margin-left: 0;
+}
+.razrabotka .promo, .seo .promo, .context .promo, .target .promo, .smm .promo{
+    height: auto;
+	background: none!important;
+	text-align: center;
+}
+#content .promo-desc, #content .promo-desc p{
+	color: #333333!important;
+}
+.razrabotka #block-2 .clearfix{
+	display: none;
+}
+.mobilePadding{
+	padding-bottom: 25px;
+}
+.seo .ico111:after, .seo .ico222:after, .seo .ico333:after, .seo .ico444:after, .context .ico111:after, .context .ico222:after, .context .ico333:after{
+	display: none;
+}
+.btn.transperant {
+    border: 2px solid #000!important;
+    color: #000!important;
+}
+.mobileMargin{
+	margin-bottom: 25px;
+}
+#content .promo-desc {
+    padding-top: 30px;
+}
+#howdoesitwork {
+    text-align: center;
+}
+.target-howwork .h3{
+	padding-top: 0;
+}
+.target #icons{
+	padding-bottom: 0;
+}
+.blog #block-1, .blog #block-3{
+	text-align: left;
+}
+hr {
+    margin: 0;
+}
+
+}
+
+@media (max-width: 480px) {
+
+.razrabotka .promo a.btn.pull-left.transperant {
+    margin-top: 20px;
+}
+.mobileBtnMargin{
+	margin-top: 30px;
+}
+.phone {
+    font-size: 14px;
+}
+.call a {
+    font-size: 14px;
+}
+.mob_pr0 {
+    padding-right: 0;
+}
+#slider .offer {
+    font-size: 18px;
+    padding-top: 20px;
+}
+#slider .suboffer a.btn.default {
+    margin-left: -133px;
+    padding: 10px 15px;
+}
+header .call a {
+    display: inline-block;
+    margin-top: 12px;
+}
+.h3 {
+    font-size: 32px;
+}
+.modal-dialog {
+    width: 300px;
+}
+.modal h4 {
+    font-size: 18px;
+}
+#footer.pb20 {
+    padding-bottom: 30px;
+}
+#footer .call li {
+    padding-bottom: 10px!important;
+}
+.portfolio #services .item-serv, .razrabotka #services .item-serv, .seo #services .item-serv, .context #services .item-serv, .target #services .item-serv, .smm #services .item-serv, .blog #services .item-serv, .blog-item #services .item-serv, .contacts #services .item-serv{
+	float: none;
+	width: 100%;
+}
+.portfolio #services .item-serv br{
+	display: none;
+}
+.callus .btn.default {
+    padding: 10px 14px;
+}
+.mobileFullWidth{
+	width: 100%;
+}
+.razrabotka #block-2, .razrabotka #block-3{
+	padding-bottom: 0;
+	padding-top: 0;
+}
+.h3.pt20.pb30{
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+#icons, #block-1{
+	padding-bottom: 0;
+}
+.servicesList .mobileFullWidth{
+	margin-bottom: 25px;
+}
+#block-1, #block-3{
+	text-align: center;
+}
+.h2 {
+    font-size: 26px;
+}
+#services.inner .zagl br{
+	display: none;
+}
+.btn.default {
+    padding: 10px 5px;
+	font-size: 16px;
+}
+.blog #block-1, .blog #block-3{
+	text-align: left;
+}
+h1 {
+    font-size: 22px;
+    line-height: normal;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
